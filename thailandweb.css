@@ -1,0 +1,121 @@
+body {
+    background-color: bisque;
+    background: url(bangkok.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    font-family: Times;
+    text-shadow: 0 0 10px;
+    color: rgb(192, 165, 12);
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: times;
+    margin-top: 0;
+}
+
+strong {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.about-thailand {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    margin-bottom: 30px;
+    font-size: 30px;
+    background-size: 300px, 200px, cover;
+    
+   
+   
+    
+    
+}
+
+@media (min-width: 960px) and (max-width:1440px){
+    .about-thailand {
+        background-size: cover;
+        font-size: larger;
+    }
+    
+}
+
+.attractions {
+    display: grid;
+    padding: 40px;
+}
+
+.about {
+    text-align: center;
+    color: black;
+    background-size: cover;
+    background-color: rgba(211, 211, 211, 0.6);
+    width: 900px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.clothing {
+    background-color:rgba(211, 211, 211, 0.6) ;
+    text-align: center;
+
+}
+
+.food {
+    background-color:rgba(211, 211, 211, 0.6) ;
+    text-align: center;
+    
+
+}
+
+.festival {
+    background-color:rgba(211, 211, 211, 0.6) ;
+    text-align: center;
+}
+
+.beaches {
+    background-color:rgba(211, 211, 211, 0.6) ;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(211, 211, 211, 0.6);
+    align-items: center;
+    margin: 140px;
+    padding: 30px;
+    cursor: pointer;
+    display: inline flex;
+    justify-content: center;
+    border: thin;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Times;
+    border-radius: 30px;
+}
+
+button:hover {
+    border: solid;
+    background-color: gray;
+    color: aliceblue;
+}
+
+a {
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+
